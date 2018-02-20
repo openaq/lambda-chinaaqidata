@@ -1,0 +1,9 @@
+{
+  "name": "chinaaqidata",
+  "description": "Fetches Chinese AQ data",
+  "memory": 128,
+  "timeout": 60,
+  "runtime": "python3.6",
+  "role": "arn:aws:iam::470049585876:role/chinaaqidata_lambda_function",
+  "environment": {}
+}
