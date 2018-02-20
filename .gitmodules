@@ -1,0 +1,3 @@
+[submodule "functions/fetch/ChinaAQIData"]
+	path = functions/fetch/ChinaAQIData
+	url = git@github.com:openaq/ChinaAQIData.git
