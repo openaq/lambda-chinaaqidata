@@ -5,5 +5,7 @@ install:
   - git submodule init
   - pip install geojson -t functions/fetch/ChinaAQIData
   - pip install requests -t functions/fetch
+  - wget -O apex https://github.com/apex/apex/releases/download/v0.16.0/apex_linux_amd64
+  - chmod +x apex
 script: true
 after_success: export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY AWS_REGION=$AWS_REGION && ./apex deploy
